@@ -1,0 +1,9 @@
+#body{
+    background-color:gray;
+}
+#border{
+    border: 2px solid gray;
+}
+p{
+    margin-left: 0.75em;
+}

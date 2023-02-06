@@ -1,0 +1,52 @@
+<section class="vh-100" style="background-color: #ffffff00;">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow-2-strong" style="border-radius: 1rem;border-color: black;">
+          <div class="card-body p-5 text-center">
+        <!-- Bind the form to loginForm and invoke logIn() method -->
+            <form [formGroup]="loginForm" (ngSubmit)="logIn()">
+              <h1>Login</h1>
+              <div class="mb-3 mt-3">
+                <!-- Create input fields with appropriate labels and formcontrols for Email Address -->
+                <label>Email</label>
+                <input type="email" class="form-control" formControlName="emailId">
+                
+                <div class="text-danger"
+                *ngIf = "loginForm.controls['emailId'].dirty && loginForm.controls['emailId'].invalid">
+                  <span *ngIf="loginForm.controls.emailId.errors.required">This field is required</span>
+                  <span *ngIf="loginForm.controls.emailId.errors.email">The correct email is required</span>
+                  <!-- Message for required error ==> This field is required -->
+                 <!-- Message for correct format email error ==> The correct email is required -->
+                </div>
+              </div>
+              <div class="mb-3">
+                <label>Password</label>
+                <input type="password" class="form-control" formControlName="password">
+                 <!-- Create input fields with appropriate labels and formcontrols for Password -->
+               <div class="text-danger"
+               *ngIf = "loginForm.controls['password'].dirty && loginForm.controls['password'].invalid">
+                <span *ngIf="loginForm.controls.password.errors.required">This field is required</span>
+                <span *ngIf="loginForm.controls.password.errors.pattern">The correct password is required</span>
+                <!-- Message for required error ==> This field is required -->
+                 <!-- Message for correct format password error ==> The correct password is required -->  
+                 </div>
+              </div>
+
+              <div class="mb-3 form-check">
+                <!-- given input and label fields for remember password -->
+                <input type="checkbox" class="form-check-input" id="remember" formControlName="rememberMe">
+                <label class="form-check-label" for="remember">Remember password</label>
+              </div>
+
+              <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">Login</button><hr>
+              <!-- Give the appropriate route here to route to SignupComponent -->
+              <a routerLink="/register">New user..? Register Here!!</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

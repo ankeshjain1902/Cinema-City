@@ -1,0 +1,836 @@
+Fri Nov 11 2022 14:47:49 GMT+0530 (India Standard Time) : ReferenceError: mBookingService is not defined
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:21:16
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:47:12)
+Fri Nov 11 2022 14:48:38 GMT+0530 (India Standard Time) : ReferenceError: mBookingService is not defined
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:21:16
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:47:12)
+Fri Nov 11 2022 14:48:48 GMT+0530 (India Standard Time) : ReferenceError: mBookingService is not defined
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:21:16
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:47:12)
+Fri Nov 11 2022 15:01:34 GMT+0530 (India Standard Time) : TypeError: Cannot read properties of undefined (reading 'length')
+    at bookingService.getAllMovies (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:7:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:21:16
+Fri Nov 11 2022 15:01:45 GMT+0530 (India Standard Time) : TypeError: moviesCollection.find(...).pretty is not a function
+    at moviesBookingDb.getAllMovies (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\model\model.js:7:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async bookingService.getAllMovies (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:6:18)
+    at async C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:21:16
+Fri Nov 11 2022 15:03:23 GMT+0530 (India Standard Time) : TypeError: moviesCollection.find(...).pretty is not a function
+    at moviesBookingDb.getAllMovies (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\model\model.js:7:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async bookingService.getAllMovies (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:6:18)
+    at async C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:21:16
+Fri Nov 11 2022 15:04:07 GMT+0530 (India Standard Time) : TypeError: movies.pretty is not a function
+    at bookingService.getAllMovies (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:8:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:21:16
+Fri Nov 11 2022 15:04:29 GMT+0530 (India Standard Time) : TypeError: moviesCollection.find(...).pretty is not a function
+    at moviesBookingDb.getAllMovies (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\model\model.js:7:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async bookingService.getAllMovies (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:6:18)
+    at async C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:21:16
+Fri Nov 11 2022 15:05:04 GMT+0530 (India Standard Time) : TypeError: res.json(...).pretty is not a function
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:22:20
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Nov 11 2022 15:05:07 GMT+0530 (India Standard Time) : TypeError: res.json(...).pretty is not a function
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:22:20
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Sat Nov 12 2022 19:47:04 GMT+0530 (India Standard Time) : TypeError: dbModel.getUserCollection is not a function
+    at moviesBookingDb.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\model\model.js:12:41)
+    at bookingService.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:15:23)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:34:43
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+Sat Nov 12 2022 19:47:46 GMT+0530 (India Standard Time) : TypeError: dbModel.getUserCollection is not a function
+    at moviesBookingDb.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\model\model.js:12:41)
+    at bookingService.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:15:23)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:34:43
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+Sat Nov 12 2022 20:08:32 GMT+0530 (India Standard Time) : TypeError: dbModel.getUserCollection is not a function
+    at moviesBookingDb.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\model\model.js:12:41)
+    at bookingService.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:15:23)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:34:43
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+Sat Nov 12 2022 20:08:59 GMT+0530 (India Standard Time) : TypeError: dbModel.getUserCollection is not a function
+    at moviesBookingDb.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\model\model.js:12:41)
+    at bookingService.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:15:23)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:34:43
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+Mon Nov 14 2022 10:02:40 GMT+0530 (India Standard Time) : ReferenceError: movieBookingDb is not defined
+    at moviesBookingDb.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\model\model.js:11:24)
+    at bookingService.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:15:23)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:34:43
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+Mon Nov 14 2022 10:03:46 GMT+0530 (India Standard Time) : ReferenceError: movieBookingDb is not defined
+    at moviesBookingDb.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\model\model.js:11:24)
+    at bookingService.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:15:23)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:34:43
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+Mon Nov 14 2022 10:04:09 GMT+0530 (India Standard Time) : ReferenceError: movieBookingDb is not defined
+    at moviesBookingDb.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\model\model.js:11:24)
+    at bookingService.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:15:23)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:34:43
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+Mon Nov 14 2022 10:13:35 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 10:14:44 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 10:25:51 GMT+0530 (India Standard Time) : ValidationError: users validation failed: mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 10:32:28 GMT+0530 (India Standard Time) : ValidationError: users validation failed: mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 10:51:27 GMT+0530 (India Standard Time) : TypeError: Cannot set properties of undefined (setting 'id')
+    at moviesBookingDb.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\model\model.js:11:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async bookingService.registerUser (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:15:14)
+    at async C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:44:16
+Mon Nov 14 2022 10:52:07 GMT+0530 (India Standard Time) : ValidationError: users validation failed: password: Path `password` is required., mobile: Path `mobile` is required., emailId: Path `emailId` is required., name: Path `name` is required., id: Path `id` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 11:10:09 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 11:10:25 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 11:15:57 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 11:16:03 GMT+0530 (India Standard Time) : ReferenceError: userDb is not defined
+    at exports.setupDb (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\model\dbsetup.js:106:57)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:12:18
+Mon Nov 14 2022 11:16:10 GMT+0530 (India Standard Time) : ReferenceError: userDb is not defined
+    at exports.setupDb (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\model\dbsetup.js:106:57)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:12:18
+Mon Nov 14 2022 11:18:59 GMT+0530 (India Standard Time) : ValidationError: users validation failed: password: Path `password` is required., mobile: Path `mobile` is required., emailId: Path `emailId` is required., name: Path `name` is required., id: Path `id` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 11:19:08 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 11:24:11 GMT+0530 (India Standard Time) : ValidationError: users validation failed: password: Path `password` is required., mobile: Path `mobile` is required., emailId: Path `emailId` is required., name: Path `name` is required., id: Path `id` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 14:51:04 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 15:03:22 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 15:09:44 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 15:14:37 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 15:17:29 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 15:18:44 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 15:19:23 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 15:20:16 GMT+0530 (India Standard Time) : ValidationError: users validation failed: id: Path `id` is required., mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 15:32:42 GMT+0530 (India Standard Time) : ValidationError: users validation failed: mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 15:35:31 GMT+0530 (India Standard Time) : ValidationError: users validation failed: mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Mon Nov 14 2022 15:37:53 GMT+0530 (India Standard Time) : ValidationError: users validation failed: mobile: Path `mobile` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 15 2022 17:21:53 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 15 2022 17:21:57 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 15 2022 17:22:03 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 15 2022 17:22:51 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 15 2022 17:24:15 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 15 2022 17:31:17 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 15 2022 17:32:36 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 15 2022 17:32:41 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 15 2022 17:37:31 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Wed Nov 16 2022 15:43:30 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Wed Nov 16 2022 17:31:31 GMT+0530 (India Standard Time) : TypeError: Cannot read properties of null (reading 'id')
+    at bookingService.getBookingDetails (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:37:46)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:79:16
+Wed Nov 16 2022 17:37:48 GMT+0530 (India Standard Time) : TypeError: Cannot read properties of null (reading 'id')
+    at bookingService.getBookingDetails (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:37:46)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:79:16
+Wed Nov 16 2022 17:38:26 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Wed Nov 16 2022 17:39:09 GMT+0530 (India Standard Time) : TypeError: Cannot read properties of null (reading 'userId')
+    at bookingService.getBookingDetails (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\service\service.js:37:46)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:79:16
+Fri Nov 18 2022 10:34:00 GMT+0530 (India Standard Time) : TypeError: bookingService.getBookingDetails is not a function
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:79:37
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:47:12)
+Mon Nov 21 2022 13:34:06 GMT+0530 (India Standard Time) : TypeError: bookingService.getBookingDetails is not a function
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:79:37
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:47:12)
+Mon Nov 21 2022 18:21:49 GMT+0530 (India Standard Time) : TypeError: bookingService.getBookingDetails is not a function
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:79:37
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:47:12)
+Mon Nov 21 2022 21:46:00 GMT+0530 (India Standard Time) : TypeError: bookingService.getBookingDetails is not a function
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:79:37
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:47:12)
+Mon Nov 21 2022 21:49:37 GMT+0530 (India Standard Time) : TypeError: bookingService.getBookingDetails is not a function
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\Backend\routes\routing.js:79:37
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\express\lib\router\index.js:47:12)
+Mon Nov 21 2022 22:47:11 GMT+0530 (India Standard Time) : MongoServerError: E11000 duplicate key error collection: MoviesBookingDB.users index: name_1 dup key: { name: "Ankesh" }
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\connection_pool.js:299:25
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\sdam\server.js:212:17
+    at handleOperationResult (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\sdam\server.js:284:20)
+    at Connection.onMessage (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:537:28)
+    at processIncomingData (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+Mon Nov 21 2022 22:47:59 GMT+0530 (India Standard Time) : MongoServerError: E11000 duplicate key error collection: MoviesBookingDB.users index: name_1 dup key: { name: "Ankesh" }
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\connection_pool.js:299:25
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\sdam\server.js:212:17
+    at handleOperationResult (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\sdam\server.js:284:20)
+    at Connection.onMessage (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:537:28)
+    at processIncomingData (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+Mon Nov 21 2022 22:48:13 GMT+0530 (India Standard Time) : MongoServerError: E11000 duplicate key error collection: MoviesBookingDB.users index: name_1 dup key: { name: "Ankesh" }
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\connection_pool.js:299:25
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\sdam\server.js:212:17
+    at handleOperationResult (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\sdam\server.js:284:20)
+    at Connection.onMessage (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:537:28)
+    at processIncomingData (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+Tue Nov 22 2022 15:25:06 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 15:39:53 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 15:40:13 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 15:41:39 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 15:43:08 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:00:14 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:19:55 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:23:01 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:24:32 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:25:55 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:40:07 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:40:43 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:46:30 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:47:13 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:48:01 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:49:25 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:50:19 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:52:21 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Tue Nov 22 2022 16:52:50 GMT+0530 (India Standard Time) : ValidationError: book validation failed: userId: Path `userId` is required.
+    at Document.invalidate (C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:3055:32)
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\document.js:2843:17
+    at C:\Users\ankesh.jain01\Documents\Project\Cinephile UI\node_modules\mongoose\lib\schematype.js:1349:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Thu Jan 19 2023 01:49:58 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getMoviesCollection (D:\Cinephile UI\Backend\utilities\connection.js:147:15)
+    at async moviesBookingDb.getAllMovies (D:\Cinephile UI\Backend\model\model.js:8:28)
+    at async bookingService.getAllMovies (D:\Cinephile UI\Backend\service\service.js:6:18)
+    at async D:\Cinephile UI\Backend\routes\routing.js:22:17
+Sat Jan 21 2023 17:59:31 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getMoviesCollection (E:\Cinephile UI\Backend\utilities\connection.js:147:15)
+    at async moviesBookingDb.getAllMovies (E:\Cinephile UI\Backend\model\model.js:8:28)
+    at async bookingService.getAllMovies (E:\Cinephile UI\Backend\service\service.js:6:18)
+    at async E:\Cinephile UI\Backend\routes\routing.js:22:17
+Tue Jan 24 2023 00:17:50 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getMoviesCollection (E:\Cinephile UI\Backend\utilities\connection.js:147:15)
+    at async moviesBookingDb.getAllMovies (E:\Cinephile UI\Backend\model\model.js:8:28)
+    at async bookingService.getAllMovies (E:\Cinephile UI\Backend\service\service.js:6:18)
+    at async E:\Cinephile UI\Backend\routes\routing.js:22:17
+Tue Jan 24 2023 00:24:51 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getMoviesCollection (E:\Cinephile UI\Backend\utilities\connection.js:149:15)
+    at async moviesBookingDb.getAllMovies (E:\Cinephile UI\Backend\model\model.js:8:28)
+    at async bookingService.getAllMovies (E:\Cinephile UI\Backend\service\service.js:6:18)
+    at async E:\Cinephile UI\Backend\routes\routing.js:22:17
+Tue Jan 24 2023 00:27:08 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getMoviesCollection (E:\Cinephile UI\Backend\utilities\connection.js:149:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getAllMovies (E:\Cinephile UI\Backend\model\model.js:8:28)
+    at async bookingService.getAllMovies (E:\Cinephile UI\Backend\service\service.js:6:18)
+    at async E:\Cinephile UI\Backend\routes\routing.js:22:17
+Tue Jan 24 2023 00:27:18 GMT+0530 (India Standard Time) : MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Cinephile UI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Tue Jan 24 2023 00:27:18 GMT+0530 (India Standard Time) : MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Cinephile UI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Tue Jan 24 2023 00:27:40 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:161:15)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 00:27:50 GMT+0530 (India Standard Time) : MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Cinephile UI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Tue Jan 24 2023 00:27:50 GMT+0530 (India Standard Time) : MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Cinephile UI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Tue Jan 24 2023 00:27:50 GMT+0530 (India Standard Time) : MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Cinephile UI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Tue Jan 24 2023 00:27:50 GMT+0530 (India Standard Time) : MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Cinephile UI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Tue Jan 24 2023 00:27:50 GMT+0530 (India Standard Time) : MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Cinephile UI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Tue Jan 24 2023 00:27:50 GMT+0530 (India Standard Time) : MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Cinephile UI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Tue Jan 24 2023 00:27:50 GMT+0530 (India Standard Time) : MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Cinephile UI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Tue Jan 24 2023 00:27:50 GMT+0530 (India Standard Time) : MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Cinephile UI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Tue Jan 24 2023 00:27:50 GMT+0530 (India Standard Time) : MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Cinephile UI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Tue Jan 24 2023 00:56:41 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getMoviesCollection (E:\Cinephile UI\Backend\utilities\connection.js:149:15)
+    at async moviesBookingDb.getAllMovies (E:\Cinephile UI\Backend\model\model.js:8:28)
+    at async bookingService.getAllMovies (E:\Cinephile UI\Backend\service\service.js:6:18)
+    at async E:\Cinephile UI\Backend\routes\routing.js:22:17
+Tue Jan 24 2023 00:57:33 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getMoviesCollection (E:\Cinephile UI\Backend\utilities\connection.js:149:15)
+    at async moviesBookingDb.getAllMovies (E:\Cinephile UI\Backend\model\model.js:8:28)
+    at async bookingService.getAllMovies (E:\Cinephile UI\Backend\service\service.js:6:18)
+    at async E:\Cinephile UI\Backend\routes\routing.js:22:17
+Tue Jan 24 2023 00:58:31 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:161:15)
+    at async exports.setupDb (E:\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async E:\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 00:59:22 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:161:15)
+    at async exports.setupDb (E:\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async E:\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 01:03:11 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:160:15)
+    at async exports.setupDb (E:\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async E:\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 01:04:26 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:161:15)
+    at async exports.setupDb (E:\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async E:\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 01:07:51 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at async exports.setupDb (E:\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async E:\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 01:15:05 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at async exports.setupDb (E:\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async E:\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 01:23:12 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.setupDb (E:\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async E:\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 01:23:15 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.setupDb (E:\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async E:\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 14:22:15 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getMoviesCollection (E:\Cinephile UI\Backend\utilities\connection.js:150:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getAllMovies (E:\Cinephile UI\Backend\model\model.js:8:28)
+    at async bookingService.getAllMovies (E:\Cinephile UI\Backend\service\service.js:6:18)
+    at async E:\Cinephile UI\Backend\routes\routing.js:22:17
+Tue Jan 24 2023 14:22:18 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:19 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:19 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:19 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:20 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:20 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:21 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:21 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:21 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:26 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:26 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:26 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:48 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getMoviesCollection (E:\Cinephile UI\Backend\utilities\connection.js:150:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getAllMovies (E:\Cinephile UI\Backend\model\model.js:8:28)
+    at async bookingService.getAllMovies (E:\Cinephile UI\Backend\service\service.js:6:18)
+    at async E:\Cinephile UI\Backend\routes\routing.js:22:17
+Tue Jan 24 2023 14:22:54 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:55 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:55 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:55 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:55 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:56 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:56 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:57 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:57 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:22:57 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (E:\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getUserByEmail (E:\Cinephile UI\Backend\model\model.js:39:15)
+    at async bookingService.getUserByEmail (E:\Cinephile UI\Backend\service\service.js:20:14)
+    at async E:\Cinephile UI\Backend\routes\routing.js:49:24
+Tue Jan 24 2023 14:31:06 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getMoviesCollection (E:\Cinephile UI\Backend\utilities\connection.js:150:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getAllMovies (E:\Cinephile UI\Backend\model\model.js:8:28)
+    at async bookingService.getAllMovies (E:\Cinephile UI\Backend\service\service.js:6:18)
+    at async E:\Cinephile UI\Backend\routes\routing.js:22:17
+Tue Jan 24 2023 14:31:19 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getMoviesCollection (E:\Cinephile UI\Backend\utilities\connection.js:150:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getAllMovies (E:\Cinephile UI\Backend\model\model.js:8:28)
+    at async bookingService.getAllMovies (E:\Cinephile UI\Backend\service\service.js:6:18)
+    at async E:\Cinephile UI\Backend\routes\routing.js:22:17
+Tue Jan 24 2023 14:31:53 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getMoviesCollection (E:\Cinephile UI\Backend\utilities\connection.js:150:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async moviesBookingDb.getAllMovies (E:\Cinephile UI\Backend\model\model.js:8:28)
+    at async bookingService.getAllMovies (E:\Cinephile UI\Backend\service\service.js:6:18)
+    at async E:\Cinephile UI\Backend\routes\routing.js:22:17
+Tue Jan 24 2023 15:37:28 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.setupDb (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async C:\Users\ankesh jain\Documents\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 15:37:30 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.setupDb (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async C:\Users\ankesh jain\Documents\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 15:38:46 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.setupDb (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async C:\Users\ankesh jain\Documents\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 15:42:15 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at async exports.setupDb (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async C:\Users\ankesh jain\Documents\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 15:42:48 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at async exports.setupDb (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async C:\Users\ankesh jain\Documents\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 15:50:25 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at async exports.setupDb (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async C:\Users\ankesh jain\Documents\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 23:41:48 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at async exports.setupDb (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async C:\Users\ankesh jain\Documents\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 23:46:58 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at async exports.setupDb (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async C:\Users\ankesh jain\Documents\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 23:50:45 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at async exports.setupDb (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async C:\Users\ankesh jain\Documents\Cinephile UI\Backend\routes\routing.js:12:18
+Tue Jan 24 2023 23:52:40 GMT+0530 (India Standard Time) : Error: Could not connect to Database
+    at collection.getUsersCollection (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\utilities\connection.js:162:15)
+    at async exports.setupDb (C:\Users\ankesh jain\Documents\Cinephile UI\Backend\model\dbsetup.js:104:26)
+    at async C:\Users\ankesh jain\Documents\Cinephile UI\Backend\routes\routing.js:12:18

@@ -1,0 +1,78 @@
+<div class="container">
+    <div class="row justify-content-md-center" >
+        <div class="col-md-4 pt-5">    
+            <img id="img" src="{{movies[id].imagePath}}" height="100%" width="100%" class="rounded-4">
+        </div>
+        <div class="col-md-8 mt-3">
+            <h3 class="text-center">{{movies[id].movieName}}</h3>
+            <p><b>IMDB Rating: </b>{{movies[id].imdbRating}}</p>
+            <p><b>Genre: </b>{{movies[id].Genre}}</p>
+            <p><b>Synopsis: </b>{{movies[id].Plot}}</p>
+            <p><b>Director: </b>{{movies[id].Director}}</p>
+            <p><b>Writers: </b>{{movies[id].Writer}}</p>
+            <p><b>Stars: </b>{{movies[id].Actors}}</p>
+            <p><b>Release Date: </b>{{movies[id].Released}}</p>
+            <p><b>Runtime: </b>{{movies[id].Runtime}}</p>
+            <p><b>Language: </b>{{movies[id].Language}}</p>
+            <p><b>Awards: </b>{{movies[id].Awards}}</p>
+            <div class="text-center">
+                <button
+                type="button"
+                class="btn btn-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#choose-date-modal">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<form [formGroup]="viewForm" (ngSubmit)="bookSeat()">
+    <div class="modal fade" id="choose-date-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">Choose Date, Time and Theatre</h1>
+              <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+            </div>
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="choosed-date" class="form-label">Select Date</label>
+                  <input type="date" class="form-control" id="choosed-date" formControlName="Date"/>
+                  <div id="dateError" class="text-danger" *ngIf="viewForm.controls['Date'].dirty && viewForm.controls['Date'].invalid">
+                    <span *ngIf = viewForm.controls.Date.errors.required>Required Field</span>
+                    <span *ngIf = viewForm.controls.Date.errors.dateError>past date can't be booked</span>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="select-time" class="form-label">Select Show Time</label>
+                  <select class="form-select" id="select-time" formControlName="Time">
+                    <option [selected]="true">Choose Time</option>
+                    <option value="11:00 AM">11:00 AM</option>
+                    <option value="02:30 PM">02:30 PM</option>
+                    <option value="06:00 PM">06:00 PM</option>
+                    <option value="09:30 PM">09:30 PM</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="select-theatre" class="form-label">Select Theatre</label>
+                  <select class="form-select" id="select-theatre" formControlName="Theatre">
+                    <option [selected]="true">Choose Theatre</option>
+                    <option value="Screen 1">Screen 1</option>
+                    <option value="Screen 2">Screen 2</option>
+                    <option value="Screen 3">Screen 3</option>
+                    <option value="Screen 4">Screen 4</option>
+                  </select>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    Close
+                </button>
+                <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" [disabled]="viewForm.invalid">
+                  Book Seat
+                </button>
+              </div>
+          </div>
+        </div>
+      </div>
+  </form>

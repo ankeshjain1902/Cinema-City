@@ -1,0 +1,77 @@
+<section class="vh-100" style="background-color: #ffffff00;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card shadow-2-strong" style="border-radius: 1rem;border-color: black;">
+            <div class="card-body p-5 text-center">
+          <!-- Bind the form to loginForm and invoke logIn() method -->
+              <form [formGroup]="registerForm" (ngSubmit)="register()">
+                <h2>Register Here!!</h2>
+
+                <div class="mb-3 mt-3">
+                    <!-- Create input fields with appropriate labels and formcontrols for Email Address -->
+                    <label>Name</label>
+                    <input type="text" class="form-control" formControlName="name">
+                    <div class="text-danger"
+                      *ngIf="registerForm.controls.name.dirty && registerForm.controls.name.invalid">
+                      <span *ngIf="registerForm.controls.name.errors.required">This field is required</span>
+                      <span *ngIf="registerForm.controls.name.errors.pattern">Contains only Alphabets and Spaces</span>
+                      <!-- Message for required error ==> This field is required -->
+                     <!-- Message for correct format name error ==> Contain only Alphabets and Spaces -->
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                  <!-- Create input fields with appropriate labels and formcontrols for Email Address -->
+                  <label>Email</label>
+                  <input type="email" class="form-control" formControlName="emailId">
+                  <div class="text-danger"
+                    *ngIf="registerForm.controls.emailId.dirty && registerForm.controls.emailId.invalid">
+                    <span *ngIf="registerForm.controls.emailId.errors.required">This field is required</span>
+                    <span *ngIf="registerForm.controls.emailId.errors.email">The correct email is required</span>
+                    <!-- Message for required error ==> This field is required -->
+                   <!-- Message for correct format email error ==> The correct email is required -->
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <!-- Create input fields with appropriate labels and formcontrols for Mobile No. -->
+                  <label>Mobile No.</label>
+                  <input type="text" class="form-control" formControlName="mobile">
+                    
+                  <div class="text-danger"
+                    *ngIf="registerForm.controls.mobile.dirty && registerForm.controls.mobile.invalid">
+                    <span *ngIf="registerForm.controls.mobile.errors.required">This field is required</span>
+                    <span *ngIf="registerForm.controls.mobile.errors.pattern">Must contain 10 digit</span>
+                    <!-- Message for required error ==> This field is required -->
+                    <!-- Message for correct format mobile error ==> Must contain 10 digit -->
+                  </div>
+                </div>
+
+
+                <div class="mb-3">
+                  <!-- Create input fields with appropriate labels and formcontrols for Password -->
+                  <label>Password</label>
+                  <input type="password" class="form-control" formControlName="password">
+                   
+                  <div class="text-danger"
+                    *ngIf="registerForm.controls.password.dirty && registerForm.controls.password.invalid">
+                    <span *ngIf="registerForm.controls.password.errors.required">This field is required</span>
+                    <span *ngIf="registerForm.controls.password.errors.pattern">The correct password is required</span>
+                    <!-- Message for required error ==> This field is required -->
+                    <!-- Message for correct format password error ==> The correct password is required -->  
+                  </div>
+                </div>
+  
+  
+                <button type="submit" class="btn btn-primary" [disabled]="registerForm.invalid">Register</button>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
